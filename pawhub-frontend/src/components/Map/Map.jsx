@@ -199,7 +199,7 @@ export default function Map() {
             <Circle
               ref={onCircleLoad}
               center={state.location}
-              radius={state.radius + 500}
+              radius={state.radius + 275}
               options={closeOptions}
             />
           )}
